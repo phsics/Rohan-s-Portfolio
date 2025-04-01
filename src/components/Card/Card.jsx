@@ -1,16 +1,15 @@
-import React from 'react'
-import "./Card.css"
+import React from "react";
+import "./Card.css";
 
-function Card({title, image}) {
+function Card({ title, image, link }) {
   return (
-    <div className="card">
-        <h1>{title}</h1>
-        <div className="hovercard">
-            <img src={image} alt="" />
-        </div>
-    </div>
-
-  )
+    <a href={link} className="card">
+      <h1>{title}</h1>
+      <div className="hovercard">
+        <img src={image} alt={title} />
+      </div>
+    </a>
+  );
 }
 
-export default Card
+export default Card;
