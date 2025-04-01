@@ -111,6 +111,9 @@ function About() {
             <h1>Education</h1>
             <ul>
               <li>
+              <span>COLLEGE</span> : NIT SILCHAR
+              </li>
+              <li>
               <span>DEGREE</span> : B-TECH
               </li>
               <li>
@@ -119,6 +122,7 @@ function About() {
               <li>
               <span>CGPA</span> : 8.98
               </li>
+              
             </ul>
           </div>
           <div className="skills">
