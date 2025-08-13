@@ -2,7 +2,7 @@ import "./Experience.css";
 import { useGSAP } from '@gsap/react'
 import gsap from "gsap"
 import { ScrollTrigger } from 'gsap/all'
-import logo from "../../assets/DocuSign.png"
+import logo from "../../assets/Docusign.png"
 
 gsap.registerPlugin(ScrollTrigger)
 
