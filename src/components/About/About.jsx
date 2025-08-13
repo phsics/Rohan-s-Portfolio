@@ -81,6 +81,7 @@ function About() {
   })
   return (
     <div id="about">
+     
       <div className="leftabout">
         <div className="circle-line">
           <div className="circle"></div>
@@ -120,7 +121,7 @@ function About() {
               <span>BRANCH</span> : COMPUTER SCIENCE & ENGINEERING
               </li>
               <li>
-              <span>CGPA</span> : 8.98
+              <span>CGPA</span> : 8.82
               </li>
               
             </ul>

@@ -1,4 +1,3 @@
-import React from 'react'
 import "./Home.css"
 import man from "../../assets/man.png"
 import { useGSAP } from '@gsap/react';
@@ -31,9 +30,10 @@ function Home() {
       duration: 1,
     })
   })
-  const driveLink = "https://drive.google.com/file/d/1O2qDtAHXMqkOk2Kj86FqMhlye5s3uHf_/view?usp=drive_link";
+  const driveLink = "https://drive.google.com/file/d/1w7KTL34MIujoevVa3NXlR-TQTvNt9GSS/view?usp=drive_link";
   return (
     <div id="home">
+      
       <div className="lefthome">
         <div className="homedetails">
           <div className="line1">I'M</div>

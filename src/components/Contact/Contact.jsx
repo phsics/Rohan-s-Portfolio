@@ -1,4 +1,3 @@
-import React from 'react'
 import conimg from "../../assets/contact.png"
 import "./Contact.css"
 import { useGSAP } from '@gsap/react'
